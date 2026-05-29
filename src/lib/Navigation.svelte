@@ -3,9 +3,16 @@
 	
 	const navItems = [
 		{ href: '/', label: 'Home' },
+		{ href: '/members', label: 'Members' },
 		{ href: '/publications', label: 'Publications' },
 		{ href: '/projects', label: 'Projects' }
 	];
+
+	$: currentPath = $page.url.pathname;
+
+	function isActive(href) {
+		return href === '/' ? currentPath === href : currentPath.startsWith(href);
+	}
 </script>
 
 <nav class="nav">
@@ -16,7 +23,7 @@
 					<a 
 						href={item.href} 
 						class="nav-link" 
-						class:active={$page.url.pathname === item.href}
+						class:active={isActive(item.href)}
 					>
 						{item.label}
 					</a>

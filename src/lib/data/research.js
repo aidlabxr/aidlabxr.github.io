@@ -149,7 +149,7 @@ export const research = [
 		// 发表信息
 		title: "Mask Balancing: Perception-Driven Dynamic Visibility Enhancement for Occlusion-Capable Optical See-Through Head-Mounted Displays",
 		venue: "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
-		venueFull: "<strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong>",
+		venueFull: "<strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong> (presented at IEEE VR 2026)",
 		status: "Published",
 		
 		// 作者信息
@@ -204,7 +204,7 @@ export const research = [
 		// 发表信息
 		title: "X-Mask: Improving Soft-Edge Occlusion in Optical See-Through Displays with Cross-Shaped Pinholes",
 		venue: "IEEE International Symposium on Mixed and Augmented Reality (ISMAR)",
-		venueFull: "Proceedings of the <strong>IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</strong>",
+		venueFull: "Proceedings of the <strong>IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</strong>, Daejeon, South Korea, October 8-12, 2025",
 		status: "Published",
 		
 		// 作者信息
@@ -266,7 +266,7 @@ export const research = [
 		// 发表信息
 		title: "Perception-Driven Soft-Edge Occlusion for Optical See-Through Head-Mounted Displays",
 		venue: "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
-		venueFull: "<strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong>",
+		venueFull: "<strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong> (presented at IEEE VR 2025)",
 		status: "Published (<strong>Open Access</strong>)",
 		
 		// 作者信息
@@ -399,7 +399,7 @@ export const research = [
 		// 发表信息
 		title: "Add-On Occlusion: Turning Off-the-Shelf Optical See-Through Head-Mounted Displays Occlusion-Capable",
 		venue: "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
-		venueFull: "<strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong>",
+		venueFull: "<strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong> (presented at IEEE VR 2023)",
 		status: "Published",
 		
 		// 作者信息
@@ -495,7 +495,7 @@ export const research = [
 		// 发表信息
 		title: "ReAR Indicators: Peripheral Cycling Indicators for Rear-Approaching Hazards",
 		venue: "International Conference on Advanced Visual Interfaces (AVI)",
-		venueFull: "Proceedings of the <strong>International Conference on Advanced Visual Interfaces (AVI)</strong>",
+		venueFull: "Proceedings of the <strong>International Conference on Advanced Visual Interfaces (AVI)</strong>, Arenzano (Genoa), Italy, June 3-7, 2024",
 		status: "Published",
 		
 		// 作者信息
@@ -526,7 +526,7 @@ export const research = [
 		// 发表信息
 		title: "Retinotopic Foveated Rendering",
 		venue: "IEEE Virtual Reality and 3D User Interfaces Conference (IEEE VR)",
-		venueFull: "Proceedings of the <strong>IEEE Virtual Reality and 3D User Interfaces Conference (IEEE VR)</strong>",
+		venueFull: "Proceedings of the <strong>IEEE Virtual Reality and 3D User Interfaces Conference (IEEE VR)</strong>, Orlando, Florida, USA, March 16-21, 2024",
 		status: "Published",
 		
 		// 作者信息
@@ -547,6 +547,178 @@ export const research = [
 			video: "http://dalab.se.sjtu.edu.cn/www/home/wp-content/uploads/2024/04/presentation-video.mp4"
 		},
 		
+		// BibTeX - 自动生成，支持自定义参数
+		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }
+	},
+
+	{
+		// 基本信息 - 只有publication，不是project
+		id: "pinhole-occlusion-poster",
+		type: "publication",
+		year: 2024,
+		paperType: "Poster Paper",
+
+		// 发表信息
+		title: "Pinhole Occlusion: Enhancing Soft-Edge Occlusion Using a Dynamic Pinhole Array",
+		venue: "IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)",
+		venueFull: "Proceedings of the <strong>IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</strong>, Orlando, Florida, USA, March 16-21, 2024",
+		status: "Published",
+
+		// 作者信息
+		authors: [
+			{ name: "Xiaodan Hu", affiliation: "TU Graz", initials: "XH", photo: "/images/authors/xiaodan-hu.jpg" },
+			{ name: "Yan Zhang", affiliation: "Shanghai Jiao Tong University", initials: "YZ", photo: "/images/authors/yan-zhang.jpg" },
+			{ name: "Monica Perusquía-Hernández", affiliation: "NAIST", initials: "MP", photo: "/images/authors/monica-perusquia.jpg" },
+			{ name: "Kiyoshi Kiyokawa", affiliation: "NAIST", initials: "KK", photo: "/images/authors/kiyoshi-kiyokawa.jpg" }
+		],
+
+		// 链接
+		links: {
+			ieee: "https://doi.org/10.1109/VRW62533.2024.00156"
+		},
+
+		bibtexCustom: {
+			pages: "719-720",
+			year: "2024"
+		},
+
+		// BibTeX - 自动生成，支持自定义参数
+		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }
+	},
+
+	{
+		// 基本信息 - 只有publication，不是project
+		id: "rear-a-poster",
+		type: "publication",
+		year: 2023,
+		paperType: "Poster Paper",
+
+		// 发表信息
+		title: "ReAR-A Peripheral Indicator for Rear-Approaching Vehicles While Cycling",
+		venue: "IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)",
+		venueFull: "Proceedings of the <strong>IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)</strong>, Sydney, Australia, October 16-20, 2023",
+		status: "Published",
+
+		// 作者信息
+		authors: [
+			{ name: "Guanghan Zhao", affiliation: "Tohoku University", initials: "GZ", photo: "/images/authors/guanghan-zhao.jpg" },
+			{ name: "Xiaodan Hu", affiliation: "TU Graz", initials: "XH", photo: "/images/authors/xiaodan-hu.jpg" },
+			{ name: "Jason Orlosky", affiliation: "Augusta University", initials: "JO", photo: "/images/authors/jason-orlosky.jpg" },
+			{ name: "Kiyoshi Kiyokawa", affiliation: "NAIST", initials: "KK", photo: "/images/authors/kiyoshi-kiyokawa.jpg" }
+		],
+
+		// 链接
+		links: {
+			ieee: "https://ieeexplore.ieee.org/document/10322129"
+		},
+
+		bibtexCustom: {
+			pages: "379-380",
+			year: "2023"
+		},
+
+		// BibTeX - 自动生成，支持自定义参数
+		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }
+	},
+
+	{
+		// 基本信息 - 只有publication，不是project
+		id: "add-on-occlusion-demo",
+		type: "publication",
+		year: 2023,
+		paperType: "Conference Demo",
+
+		// 发表信息
+		title: "Add-on Occlusion: Building an Occlusion-Capable Optical See-Through Head-Mounted Display with HoloLens 1",
+		venue: "IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)",
+		venueFull: "Proceedings of the <strong>IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</strong>, Shanghai, China, March 25-29, 2023",
+		status: "Published",
+
+		// 作者信息
+		authors: [
+			{ name: "Yan Zhang", affiliation: "Shanghai Jiao Tong University", initials: "YZ", photo: "/images/authors/yan-zhang.jpg" },
+			{ name: "Xiaodan Hu", affiliation: "TU Graz", initials: "XH", photo: "/images/authors/xiaodan-hu.jpg" },
+			{ name: "Kiyoshi Kiyokawa", affiliation: "NAIST", initials: "KK", photo: "/images/authors/kiyoshi-kiyokawa.jpg" },
+			{ name: "Xubo Yang", affiliation: "Shanghai Jiao Tong University", initials: "XY", photo: "/images/authors/xubo-yang.jpg" }
+		],
+
+		// 链接
+		links: {
+			ieee: "https://doi.org/10.1109/VRW58643.2023.00347"
+		},
+
+		bibtexCustom: {
+			pages: "1003-1004",
+			year: "2023"
+		},
+
+		// BibTeX - 自动生成，支持自定义参数
+		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }
+	},
+
+	{
+		// 基本信息 - 只有publication，不是project
+		id: "dc-smart-sunglasses",
+		type: "publication",
+		year: 2022,
+		paperType: "Workshop Paper",
+
+		// 发表信息
+		title: "[DC] Designing and Optimizing Daily-wear Photophobic Smart Sunglasses",
+		venue: "IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)",
+		venueFull: "Proceedings of the <strong>IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</strong>, Christchurch, New Zealand, March 12-16, 2022",
+		status: "Published",
+
+		// 作者信息
+		authors: [
+			{ name: "Xiaodan Hu", affiliation: "NAIST", initials: "XH", photo: "/images/authors/xiaodan-hu.jpg" }
+		],
+
+		// 链接
+		links: {
+			ieee: "https://doi.org/10.1109/VRW55335.2022.00318"
+		},
+
+		bibtexCustom: {
+			pages: "934-935",
+			year: "2022"
+		},
+
+		// BibTeX - 自动生成，支持自定义参数
+		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }
+	},
+
+	{
+		// 基本信息 - 只有publication，不是project
+		id: "autism-sunglasses-poster",
+		type: "publication",
+		year: 2021,
+		paperType: "Poster Paper",
+
+		// 发表信息
+		title: "Design and Prototyping of Computational Sunglasses for Autism Spectrum Disorders",
+		venue: "IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)",
+		venueFull: "Proceedings of the <strong>IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</strong>, Lisbon, Portugal, March 27-April 3, 2021",
+		status: "Published",
+
+		// 作者信息
+		authors: [
+			{ name: "Xiaodan Hu", affiliation: "NAIST", initials: "XH", photo: "/images/authors/xiaodan-hu.jpg" },
+			{ name: "Yan Zhang", affiliation: "Shanghai Jiao Tong University", initials: "YZ", photo: "/images/authors/yan-zhang.jpg" },
+			{ name: "Naoya Isoyama", affiliation: "Otsuma Women's University", initials: "NI", photo: "/images/authors/naoya-isoyama.jpg" },
+			{ name: "Kiyoshi Kiyokawa", affiliation: "NAIST", initials: "KK", photo: "/images/authors/kiyoshi-kiyokawa.jpg" }
+		],
+
+		// 链接
+		links: {
+			ieee: "https://doi.org/10.1109/VRW52623.2021.00173"
+		},
+
+		bibtexCustom: {
+			pages: "581-582",
+			year: "2021"
+		},
+
 		// BibTeX - 自动生成，支持自定义参数
 		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }
 	}
