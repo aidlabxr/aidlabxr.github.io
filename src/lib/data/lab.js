@@ -37,7 +37,8 @@ export const students = [
 		nameJapanese: "岩井椎汰",
 		role: "B4",
 		topic: "Diminished reality techniques for architecture",
-		topicJapanese: "建築のための隠消現実感技術"
+		topicJapanese: "建築のための隠消現実感技術",
+		photo: "/images/members/shiita_iwai.jpg"
 	},
 	{
 		name: "Takeshi Suzuki",
@@ -52,7 +53,7 @@ export const students = [
 export const visitingStudents = [
 	{
 		name: "Michael Rauscher",
-		role: "M2",
+		role: "M1",
 		affiliation: "IVC, TU Graz, Austria",
 		photo: "/images/members/michael_rauscher.JPG",
 		link: "https://ivc.tugraz.at/research-teams/team-kalkofen/"
