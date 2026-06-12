@@ -5,7 +5,8 @@
 		{ href: '/', label: 'Home' },
 		{ href: '/members', label: 'Members' },
 		{ href: '/publications', label: 'Publications' },
-		{ href: '/projects', label: 'Projects' }
+		{ href: '/projects', label: 'Projects' },
+		{ href: '/prospective-students', label: 'Prospective Students' }
 	];
 
 	$: currentPath = $page.url.pathname;
