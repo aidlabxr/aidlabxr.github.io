@@ -127,7 +127,9 @@
 				You are the commander of AI, not someone driven by AI.
 			</p>
 			<p>
-				Thinking by yourself means that you must read papers by yourself. Papers are written
+				Thinking by yourself means that before using AI, you should first think for yourself. 
+				For example, think about what question you want to ask. In the end, you must understand 
+				the answer yourself. Papers are written
 				in English, and it is fine to use AI for translation if you do not understand them.
 				If possible, after AI translates one sentence, look back at the original sentence and
 				see where exactly you did not understand. It is also fine to ask AI about mathematics,
@@ -142,7 +144,8 @@
 				AIに動かされる側ではありません。
 			</p>
 			<p lang="ja">
-				ここで言う「自分で考える」とは，必ず自分で論文を読むということです。論文は英語で書かれているので，
+				ここで言う「自分で考える」とは，AIを使う前に，まず自分で考えるということです。例えば，何を聞きたいのかをまず自分で考えてください。
+				そして最後は必ず自分で理解してください。論文は英語で書かれているので，
 				分からなければAIで翻訳しても構いません。できれば，AIが一文を翻訳したあとに原文をもう一度見て，
 				自分がどこを理解できなかったのかを確認してください。数学が分からない場合にAIに聞くのも構いませんが，
 				最終的には，なぜここでこの数理モデルを使うのか，この関数が何を意味しているのかを自分で理解してください。
