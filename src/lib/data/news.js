@@ -1,5 +1,10 @@
 export const news = [
 	{
+		date: "2026.06",
+		content: "Hu is serving as the <strong>Student Volunteer Chair</strong> for <strong><a href='https://vrst.acm.org/vrst2026/'>VRST 2026</a></strong>.",
+		contentJapanese: "胡が<strong><a href='https://vrst.acm.org/vrst2026/'>VRST 2026</a></strong>の<strong>Student Volunteer Chair</strong>を務めています。"
+	},
+	{
 		date: "2026.04",
 		content: "Iwai (B4), Suzuki (B4), and Yokota (B4) joined the <strong>AID Lab</strong>.",
 		contentJapanese: "岩井（B4），鈴木（B4），横田（B4）が<strong>AID Lab</strong>に配属されました。"

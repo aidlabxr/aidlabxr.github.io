@@ -1,14 +1,13 @@
 export const academicService = {
 	organizingCommittee: [
 		{
-			year: "2026",
-			role: "International Program Committee",
-			conference: "IEEE VR 2026, IEEE ISMAR 2026"
+			role: "Student Volunteer Chair",
+			conference: "VRST 2026"
 		},
 		{
-			year: "2026",
-			role: "Program Committee",
-			conference: "IEEE AIxVR 2026"
+			role: "International Program Committee",
+			conference: "IEEE VR 2026, IEEE ISMAR 2026",
+			url: null
 		}
 	],
 	reviewer: {
@@ -20,11 +19,7 @@ export const academicService = {
 		conferences: [
 			"IEEE VR",
 			"ISMAR",
-			"VRST",
-			"ICAT-EGVE",
-			"AIxVR"
+			"VRST"
 		]
 	}
 };
-
-

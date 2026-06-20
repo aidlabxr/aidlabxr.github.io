@@ -64,9 +64,13 @@
 	<div class="service-list">
 		{#each academicService.organizingCommittee as item}
 			<div class="service-item">
-				<span class="service-year">{item.year}</span>
+				<span class="service-year service-role">{item.role}</span>
 				<div class="service-content">
-					<strong>{item.role}</strong>, {item.conference}
+					{#if item.url}
+						<a href={item.url}>{item.conference}</a>
+					{:else}
+						{item.conference}
+					{/if}
 				</div>
 			</div>
 		{/each}
@@ -254,13 +258,21 @@
 		font-size: 0.95rem;
 	}
 
-	.service-content strong {
-		color: var(--teal);
-		font-weight: 600;
+	.service-role {
+		min-width: 220px;
 	}
 
 	/* Responsive Design */
 	@media (max-width: 768px) {
+		.service-item {
+			flex-direction: column;
+			gap: 0.25rem;
+		}
+
+		.service-role {
+			min-width: 0;
+		}
+
 		.profile-compact {
 			flex-direction: column;
 			text-align: center;
