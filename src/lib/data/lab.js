@@ -30,7 +30,8 @@ export const students = [
 		nameJapanese: "横田望",
 		role: "B4",
 		topic: "3D sketching interfaces in virtual reality",
-		topicJapanese: "VRにおける3Dスケッチングインタフェース"
+		topicJapanese: "VRにおける3Dスケッチングインタフェース",
+		photo: "/images/members/nozomi_yokota.jpg"
 	},
 	{
 		name: "Shiita Iwai",
