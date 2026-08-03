@@ -59,8 +59,13 @@
 	<title>Publications - Xiaodan Hu</title>
 </svelte:head>
 
+<h2 class="section-header">Publications / 論文</h2>
+
 <div class="google-scholar-note">
-	<p>For a complete list of publications, please refer to my <a href="https://scholar.google.com/citations?user=wxlZ_j8AAAAJ" target="_blank" rel="noopener noreferrer" class="scholar-link">Google Scholar</a> profile.</p>
+	<p>
+		For a complete list of publications, please refer to my <a href="https://scholar.google.com/citations?user=wxlZ_j8AAAAJ" target="_blank" rel="noopener noreferrer" class="scholar-link">Google Scholar</a> profile.<br>
+		論文リストの全体については，<a href="https://scholar.google.com/citations?user=wxlZ_j8AAAAJ" target="_blank" rel="noopener noreferrer" class="scholar-link">Google Scholar</a>をご覧ください。
+	</p>
 </div>
 
 <div class="publication-list">
@@ -126,6 +131,15 @@
 <style>
 	.publication-list {
 		margin: 0;
+	}
+
+	.section-header {
+		font-family: 'Libre Baskerville', serif;
+		color: var(--primary-blue);
+		margin-bottom: 1.2rem;
+		font-size: 1.6rem;
+		border-bottom: 2px solid var(--mint);
+		padding-bottom: 0.5rem;
 	}
 
 	.google-scholar-note {
@@ -212,17 +226,17 @@
 	}
 
 	.paper-type.conference-paper {
-		color: var(--dark-blue);
-		background: #eef7f6;
-		border-color: #d6ece8;
+		color: var(--primary-blue);
+		background: var(--light-mint);
+		border-color: var(--mint);
 	}
 
 	.paper-type.poster-paper,
 	.paper-type.workshop-paper,
 	.paper-type.conference-demo {
-		color: var(--primary-blue);
-		background: var(--light-mint);
-		border-color: var(--mint);
+		color: var(--dark-blue);
+		background: #eef7f6;
+		border-color: #d6ece8;
 	}
 
 	:global(.pub-title a) {

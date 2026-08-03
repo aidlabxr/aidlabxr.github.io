@@ -121,14 +121,14 @@
 
 				<!-- Abstract -->
 				<div class="abstract">
-					<h2>Abstract</h2>
+					<h2>Abstract / 概要</h2>
 					<p>{project.project.details.abstract}</p>
 				</div>
 
 				<!-- Key Features -->
 				{#if project.project.details.keyFeatures && project.project.details.keyFeatures.length > 0}
 					<div class="abstract">
-						<h2>Main Contributions</h2>
+						<h2>Main Contributions / 主な貢献</h2>
 						<ul>
 							{#each project.project.details.keyFeatures as feature}
 								<li>{feature}</li>
@@ -140,7 +140,7 @@
 				<!-- Methodology -->
 				{#if project.project.details?.methodology}
 					<div class="abstract">
-						<h2>Methodology</h2>
+						<h2>Methodology / 手法</h2>
 						<p>{project.project.details.methodology}</p>
 					</div>
 				{/if}
@@ -148,7 +148,7 @@
 				<!-- Results -->
 				{#if project.project.details?.results}
 					<div class="abstract">
-						<h2>Results</h2>
+						<h2>Results / 結果</h2>
 						<p>{project.project.details.results}</p>
 					</div>
 				{/if}
@@ -159,7 +159,7 @@
 		<div class="bibtex-section">
 			<h3>BibTeX</h3>
 			<button class="copy-button" on:click={copyBibtex}>
-				<i class="fas fa-copy"></i> Copy BibTeX
+				<i class="fas fa-copy"></i> Copy BibTeX / BibTeXをコピー
 			</button>
 			<div class="bibtex-code">{project.bibtex}</div>
 		</div>
@@ -167,7 +167,7 @@
 		<!-- Footer links -->
 		<div class="footer-links">
 			<a href="/projects" class="back-to-projects">
-				<i class="fas fa-arrow-left"></i> Back to Projects
+				<i class="fas fa-arrow-left"></i> Back to Projects / 研究プロジェクト一覧へ
 			</a>
 		</div>
 	</div>

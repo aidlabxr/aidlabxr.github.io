@@ -20,13 +20,13 @@
 			<h3>Research Direction</h3>
 			<p class="heading-jp">研究の方向性</p>
 			<p>
-				AID Lab mainly works on VR/AR hardware, optics, and human visual characteristics.
+				AID Lab mainly works on VR/AR displays, optics, and human visual characteristics.
 				In the Media Course, there are also other VR/AR laboratories, such as the Takashima
 				Lab and the Asano Lab. Please learn about the main direction of each laboratory in
 				advance and choose according to your own interests.
 			</p>
 			<p lang="ja">
-				AID Labでは，VR/ARハードウェア，光学，人間の視覚特性を中心とした研究を行っています。
+				AID Labでは，VR/ARディスプレイ，光学，人間の視覚特性を中心とした研究を行っています。
 				メディアコースには，高嶋研や浅野研など，VR/ARに関連する研究室もあります。
 				事前に各研究室の主な方向性を調べ，自分の興味に合わせて選んでください。
 			</p>
@@ -99,7 +99,7 @@
 		</article>
 
 		<article>
-			<h3>Research Collaborations </h3>
+			<h3>Research Collaborations</h3>
 			<p class="heading-jp">国内外のつながり</p>
 			<p>
 				I also have research collaborations both in Japan and abroad, including the University of
@@ -256,15 +256,6 @@
 		margin-bottom: 2rem;
 		border-bottom: 3px solid var(--mint);
 		padding-bottom: 1.2rem;
-	}
-
-	.eyebrow {
-		color: var(--teal);
-		font-size: 0.9rem;
-		font-weight: 700;
-		letter-spacing: 0;
-		text-transform: uppercase;
-		margin-bottom: 0.35rem;
 	}
 
 	.lead {

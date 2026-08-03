@@ -19,7 +19,7 @@
 </svelte:head>
 
 <section class="section">
-	<h2>Members</h2>
+	<h2>Members / メンバー</h2>
 
 	<h3>Principal Investigator</h3>
 	<a class="member-card pi-card" href={principalInvestigator.link}>
@@ -28,12 +28,13 @@
 			<h4>{principalInvestigator.name}</h4>
 			<p class="member-japanese-name">{principalInvestigator.nameJapanese}</p>
 			<p>{principalInvestigator.position}</p>
+			<p class="member-position-japanese">{principalInvestigator.positionJapanese}</p>
 		</div>
 	</a>
 </section>
 
 <section class="section">
-	<h2>Students</h2>
+	<h2>Students / 学生</h2>
 	{#if students.length > 0}
 		{#each Object.entries(studentGroups) as [role, members]}
 			<h3 class="member-group-heading">{role}</h3>
@@ -64,12 +65,15 @@
 			</div>
 		{/each}
 	{:else}
-		<p class="empty-note">Student members will be added soon.</p>
+		<p class="empty-note">
+			Student members will be added soon.<br>
+			学生メンバーは今後追加予定です。
+		</p>
 	{/if}
 </section>
 
 <section class="section">
-	<h2>Visiting Students</h2>
+	<h2>Visiting Students / 訪問学生</h2>
 	{#each Object.entries(visitingStudentGroups) as [role, members]}
 		<h3 class="member-group-heading">{role}</h3>
 		<div class="member-grid">
@@ -175,6 +179,12 @@
 		margin-top: 0.2rem;
 		color: var(--dark-blue);
 		font-size: 0.88rem;
+		line-height: 1.35;
+	}
+
+	.member-position-japanese {
+		color: var(--dark-blue);
+		font-size: 0.9rem;
 		line-height: 1.35;
 	}
 

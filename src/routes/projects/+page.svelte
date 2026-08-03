@@ -6,7 +6,7 @@
 	<title>Projects - Xiaodan Hu</title>
 </svelte:head>
 
-<h2 class="section-header">Research Projects</h2>
+<h2 class="section-header">Research Projects / 研究プロジェクト</h2>
 
 <div class="project-grid">
 	{#each projects as project}

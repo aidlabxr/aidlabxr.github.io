@@ -27,7 +27,7 @@
 </section>
 
 <section class="section">
-	<h2>Latest News</h2>
+	<h2>Latest News / 最新ニュース</h2>
 	<div class="news-scroll-container">
 		{#each news as item}
 			<div class="news-item">
@@ -45,11 +45,11 @@
 
 <section class="contact-panel" aria-label="Address and contact">
 	<div>
-		<h2>Address</h2>
+		<h2>Address / 所在地</h2>
 		<p>{@html lab.address}</p>
 	</div>
 	<div>
-		<h2>Contact</h2>
+		<h2>Contact / 連絡先</h2>
 		<a href={`mailto:${lab.email.replace('[at]', '@')}`}>{lab.email}</a>
 	</div>
 </section>

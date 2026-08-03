@@ -3,6 +3,7 @@ export const profile = {
 	nameChinese: "胡潇丹",
 	nameJapanese: "胡瀟丹（コ ショウタン）",
 	position: "Assistant Professor at Shibaura Institute of Technology",
+	positionJapanese: "芝浦工業大学 助教",
 	location: "Shibaura Institute of Technology, Japan",
 	email: "x-hu[at]shibaura-it.ac.jp",
 	scholar: "https://scholar.google.com/citations?user=wxlZ_j8AAAAJ",

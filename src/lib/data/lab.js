@@ -20,6 +20,7 @@ export const principalInvestigator = {
 	nameJapanese: profile.nameJapanese,
 	title: "Principal Investigator",
 	position: profile.position,
+	positionJapanese: profile.positionJapanese,
 	photo: profile.photo,
 	link: "/members/xiaodan-hu"
 };

@@ -1,5 +1,10 @@
 export const news = [
 	{
+		date: "2026.08",
+		content: "Hu has been selected as PI for <strong>JSPS KAKENHI Grant-in-Aid for Research Activity Start-up</strong>.",
+		contentJapanese: "胡が研究代表者として<strong>JSPS 科研費 研究活動スタート支援</strong>に採択されました。"
+	},
+	{
 		date: "2026.06",
 		content: "Hu is serving as the <strong>Student Volunteer Chair</strong> for <strong><a href='https://vrst.acm.org/vrst2026/'>VRST 2026</a></strong>.",
 		contentJapanese: "胡が<strong><a href='https://vrst.acm.org/vrst2026/'>VRST 2026</a></strong>の<strong>Student Volunteer Chair</strong>を務めています。"
