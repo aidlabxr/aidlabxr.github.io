@@ -1,6 +1,11 @@
 export const news = [
 	{
 		date: "2026.08",
+		content: "Our paper <a href='/projects/varifocal-vac'>Varifocal Displays Reduce the Impact of the Vergence-Accommodation Conflict on 3D Pointing Performance in Augmented Reality Systems</a> has been accepted by <strong>Virtual Reality</strong>.",
+		contentJapanese: "論文<a href='/projects/varifocal-vac'>Varifocal Displays Reduce the Impact of the Vergence-Accommodation Conflict on 3D Pointing Performance in Augmented Reality Systems</a>が<strong>Virtual Reality</strong>に採択されました。"
+	},
+	{
+		date: "2026.08",
 		content: "Hu has been selected as PI for <strong>JSPS KAKENHI Grant-in-Aid for Research Activity Start-up</strong>.",
 		contentJapanese: "胡が研究代表者として<strong>JSPS 科研費 研究活動スタート支援</strong>に採択されました。"
 	},

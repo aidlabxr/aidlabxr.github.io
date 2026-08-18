@@ -82,13 +82,13 @@ export const research = [
 		
 		// 发表信息
 		title: "Varifocal Displays Reduce the Impact of the Vergence-Accommodation Conflict on 3D Pointing Performance in Augmented Reality Systems",
-		venue: "arXiv preprint",
-		venueFull: "<strong>arXiv preprint</strong>",
-		status: "Under Review",
+		venue: "Virtual Reality",
+		venueFull: "<strong>Virtual Reality</strong>",
+		status: "Accepted",
 		
 		// 作者信息
 		authors: [
-			{ name: "Xiaodan Hu", affiliation: "TU Graz", initials: "XH", photo: "/images/authors/xiaodan-hu.jpg" },
+			{ name: "Xiaodan Hu", affiliation: "Shibaura Institute of Technology", initials: "XH", photo: "/images/authors/xiaodan-hu.jpg" },
 			{ name: "Monica Perusquía-Hernández", affiliation: "NAIST", initials: "MP", photo: "/images/authors/monica-perusquia.jpg" },
 			{ name: "Mayra Donaji Barrera Machuca", affiliation: "University of Calgary", initials: "MDBM", photo: "/images/authors/mayra-barrera.png" },
 			{ name: "Anil Ufuk Batmaz", affiliation: "Concordia University", initials: "AUB", photo: "/images/authors/anil-batmaz.jpg" },
@@ -127,13 +127,13 @@ export const research = [
 		},
 		
 		bibtexCustom: {
-			journal: "arXiv preprint",
+			journal: "Virtual Reality",
 		// 	volume: "81",
 		// 	pages: "102611",
 			year: "2026",
 			rchivePrefix: "arXiv",
 			url: "https://arxiv.org/abs/2602.05129",
-			publisher: "arXiv"
+			publisher: "Springer"
 		},
 
 		// BibTeX - 自动生成，支持自定义参数

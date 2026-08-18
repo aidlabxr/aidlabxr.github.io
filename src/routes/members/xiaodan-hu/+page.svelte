@@ -55,12 +55,6 @@
 	<div class="teaching-item">
 		<span class="teaching-year">2026</span>
 		<div class="teaching-content">
-			<strong>未来を創る１</strong>, Shibaura Institute of Technology
-		</div>
-	</div>
-	<div class="teaching-item">
-		<span class="teaching-year">2026</span>
-		<div class="teaching-content">
 			<strong>テクニカルセミナー1</strong>, Shibaura Institute of Technology
 		</div>
 	</div>
@@ -166,7 +160,7 @@
 	<div class="patent-item">
 		<span class="patent-date">2022.10.07</span>
 		<div class="patent-content">
-			<strong>調光装置</strong>, 特開2022-151109, 特願2021-054025, 胡瀟丹，磯山直也，酒田信親，清川清.
+			<strong>調光装置</strong>, 特開2022-151109, 特願2021-054025, <strong>胡瀟丹</strong>，磯山直也，酒田信親，清川清.
 		</div>
 	</div>
 
@@ -174,7 +168,7 @@
 	<div class="patent-item">
 		<span class="patent-date">2025.04.10</span>
 		<div class="patent-content">
-			<strong>Near-Eye Display Using Pinhole Aperture Array</strong>, U.S. Patent Application 19/175,389, Xiaodan Hu, Alexander Plopski.
+			<strong>Near-Eye Display Using Pinhole Aperture Array</strong>, U.S. Patent Application 19/175,389, <strong>Xiaodan Hu</strong>, Alexander Plopski.
 		</div>
 	</div>
 </section>

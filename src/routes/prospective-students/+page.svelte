@@ -81,17 +81,17 @@
 			<h3>Publications</h3>
 			<p class="heading-jp">論文発表について</p>
 			<p>
-				In the short term, AID Lab may not submit much to domestic Japanese conferences. To be
+				<s>In the short term, AID Lab may not submit much to domestic Japanese conferences. To be
 				honest, my Japanese is not yet strong enough for me to confidently supervise students writing papers 
-				in Japanese. However, I have a lot of experience writing English papers, including
+				in Japanese.</s> However, I have a lot of experience writing English papers, including
 				for top venues in this field such as TVCG, IEEE VR, and ISMAR. AID Lab encourages
 				students, even undergraduate students, to try publishing papers in English. I will
 				help you with your first paper, so you do not need to worry too much about
 				the writing.
 			</p>
 			<p lang="ja">
-				短期的には，AID Labでは日本国内の学会にはあまり投稿しないかもしれません。正直に言うと，胡の日本語力は，
-				学生の日本語論文を十分に指導できるレベルにはまだ達していません。一方で，胡には英語論文を書いてきた経験が多くあり，
+				<s>短期的には，AID Labでは日本国内の学会にはあまり投稿しないかもしれません。正直に言うと，胡の日本語力は，
+				学生の日本語論文を十分に指導できるレベルにはまだ達していません。</s>一方で，胡には英語論文を書いてきた経験が多くあり，
 				本分野のトップジャーナルであるTVCGや，トップカンファレンスであるIEEE VR，ISMARでの発表経験があります。
 				AID Labでは，学部生であっても英語論文の投稿に挑戦することを歓迎します。最初の論文は一緒に書きますので，
 				英語で書くことを過度に心配しなくて大丈夫です。
