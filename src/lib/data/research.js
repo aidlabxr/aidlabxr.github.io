@@ -84,7 +84,7 @@ export const research = [
 		title: "Varifocal Displays Reduce the Impact of the Vergence-Accommodation Conflict on 3D Pointing Performance in Augmented Reality Systems",
 		venue: "Virtual Reality",
 		venueFull: "<strong>Virtual Reality</strong>",
-		status: "Accepted",
+		status: "Published",
 		
 		// 作者信息
 		authors: [
@@ -121,6 +121,7 @@ export const research = [
 		// 链接
 		links: {
             project: "/projects/varifocal-vac",
+			journal: "https://doi.org/10.1007/s10055-026-01473-5",
 			arxiv: "https://arxiv.org/abs/2602.05129",
 			// preprint: "/papers/Hu_Displays2024_SmartDimming.pdf",
 			
@@ -131,8 +132,8 @@ export const research = [
 		// 	volume: "81",
 		// 	pages: "102611",
 			year: "2026",
-			rchivePrefix: "arXiv",
-			url: "https://arxiv.org/abs/2602.05129",
+			doi: "https://doi.org/10.1007/s10055-026-01473-5",
+			url: "https://doi.org/10.1007/s10055-026-01473-5",
 			publisher: "Springer"
 		},
 
